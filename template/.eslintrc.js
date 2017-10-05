@@ -44,6 +44,8 @@ module.exports = {
       'js': 'never',
       'vue': 'never'
     }],
+    // force double quotes
+    'quotes': ['error', 'double'],
     // allow optionalDependencies
     'import/no-extraneous-dependencies': ['error', {
       'optionalDependencies': ['test/unit/index.js']
